@@ -141,7 +141,6 @@ To change the Jupyter password you must carry out the below.
 ## Authors
 
 * **Steven Smith** - *Modified scripts to create installer* - [MrStevenSmith](https://github.com/MrStevenSmith)
-* **NVIDIA** - *Created JetCard script* - [NVIDIA-AI-IOT](https://github.com/NVIDIA-AI-IOT)
 * **Dustin Franklin** - *Created jetson-inference code* - [dusty-nv](https://github.com/dusty-nv)
 * **Adam Geitgey** - *Created the doorcam demo* - [ageitgey](https://gist.github.com/ageitgey)
 * **Andrea Grandi** - *Created the Pima Indians Diabetes Jupyter Notebook* - [andreagrandi](https://github.com/andreagrandi)
