@@ -228,11 +228,11 @@ echo " "
 echo "16. Installing 2 Days to a Demo"
 echo " "
 sleep 6
+deactivate
 echo $PASSWORD | sudo -S apt-get install -y dialog
 echo $PASSWORD | sudo -S apt-get install -y libglew-dev glew-utils libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libglib2.0-dev
-echo $PASSWORD | sudo -S apt-get install -y libopencv-calib3d-dev libopencv-dev qtbase5-dev
+echo $PASSWORD | sudo -S apt-get install -y libopencv-calib3d-dev libopencv-dev qtbase5-dev qt5-default doxygen
 # libgstreamer0.10-0-dev libgstreamer-plugins-base0.10-dev libxml2-dev
-deactivate
 cd /home/$USER/ai
 git clone --recursive https://github.com/dusty-nv/jetson-inference
 cd jetson-inference
@@ -265,10 +265,10 @@ echo "[Pre-build]  Finished CMakePreBuild script"
 EOF
 mkdir build
 cd build
-echo $PASSWORD | cmake ../
-echo $PASSWORD | make
-echo $PASSWORD | make install
-echo $PASSWORD | ldconfig
+echo $PASSWORD | sudo -S cmake ../
+echo $PASSWORD | sudo -S make
+echo $PASSWORD | sudo -S make install
+echo $PASSWORD | sudo -S ldconfig
 cd /home/$USER
 source /home/$USER/python-envs/ai/bin/activate
 
