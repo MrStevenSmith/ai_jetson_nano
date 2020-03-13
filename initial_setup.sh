@@ -282,26 +282,37 @@ wget https://nvidia.box.com/shared/static/5z3l76p8ap4n0o6rk7lyasdog9f14gc7.proto
 wget https://nvidia.box.com/shared/static/ue8qrqtglu36andbvobvaaj8egxjaoli.prototxt -O ~/ai/jetson-inference/data/networks/googlenet_noprob.prototxt
 wget https://nvidia.box.com/shared/static/gph1qfor89vh498op8cicvwc13zltu3h.gz ~/ai/jetson-inference/data/networks
 tar xf gph1qfor89vh498op8cicvwc13zltu3h.gz
+rm gph1qfor89vh498op8cicvwc13zltu3h.gz
 wget https://nvidia.box.com/shared/static/jcdewxep8vamzm71zajcovza938lygre.gz ~/ai/jetson-inference/data/networks
 tar xf jcdewxep8vamzm71zajcovza938lygre.gz
+rm jcdewxep8vamzm71zajcovza938lygre.gz
 wget https://nvidia.box.com/shared/static/0wbxo6lmxfamm1dk90l8uewmmbpbcffb.gz ~/ai/jetson-inference/data/networks
 tar xf 0wbxo6lmxfamm1dk90l8uewmmbpbcffb.gz
+rm 0wbxo6lmxfamm1dk90l8uewmmbpbcffb.gz
 wget https://nvidia.box.com/shared/static/wjitc00ef8j6shjilffibm6r2xxcpigz.gz ~/ai/jetson-inference/data/networks
 tar xf wjitc00ef8j6shjilffibm6r2xxcpigz.gz
+rm wjitc00ef8j6shjilffibm6r2xxcpigz.gz
 wget https://nvidia.box.com/shared/static/3qdg3z5qvl8iwjlds6bw7bwi2laloytu.gz ~/ai/jetson-inference/data/networks
 tar xf 3qdg3z5qvl8iwjlds6bw7bwi2laloytu.gz
+rm 3qdg3z5qvl8iwjlds6bw7bwi2laloytu.gz
 wget https://nvidia.box.com/shared/static/k7s7gdgi098309fndm2xbssj553vf71s.gz ~/ai/jetson-inference/data/networks
 tar xf k7s7gdgi098309fndm2xbssj553vf71s.gz
+rm k7s7gdgi098309fndm2xbssj553vf71s.gz
 wget https://nvidia.box.com/shared/static/9aqg4gpjmk7ipz4z0raa5mvs35om6emy.gz ~/ai/jetson-inference/data/networks
 tar xf 9aqg4gpjmk7ipz4z0raa5mvs35om6emy.gz
+rm 9aqg4gpjmk7ipz4z0raa5mvs35om6emy.gz
 wget https://nvidia.box.com/shared/static/jm0zlezvweiimpzluohg6453s0u0nvcv.gz ~/ai/jetson-inference/data/networks
 tar xf jm0zlezvweiimpzluohg6453s0u0nvcv.gz
+rm jm0zlezvweiimpzluohg6453s0u0nvcv.gz
 wget https://nvidia.box.com/shared/static/dgaw0ave3bdws1t5ed333ftx5dbpt9zv.gz ~/ai/jetson-inference/data/networks
 tar xf dgaw0ave3bdws1t5ed333ftx5dbpt9zv.gz
+rm dgaw0ave3bdws1t5ed333ftx5dbpt9zv.gz
 wget https://nvidia.box.com/shared/static/p63pgrr6tm33tn23913gq6qvaiarydaj.gz ~/ai/jetson-inference/data/networks
 tar xf p63pgrr6tm33tn23913gq6qvaiarydaj.gz
+rm p63pgrr6tm33tn23913gq6qvaiarydaj.gz
 wget https://nvidia.box.com/shared/static/5vs9t2wah5axav11k8o3l9skb7yy3xgd.gz ~/ai/jetson-inference/data/networks
 tar xf 5vs9t2wah5axav11k8o3l9skb7yy3xgd.gz
+rm 5vs9t2wah5axav11k8o3l9skb7yy3xgd.gz
 
 ## Download cat_dog dataset
 echo " "
