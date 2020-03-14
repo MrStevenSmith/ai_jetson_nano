@@ -138,9 +138,16 @@ To change the Jupyter password you must carry out the below.
 * Python Virtual Environment
 
 
-## Authors
+## License
 
-* **Steven Smith** - *Modified scripts to create installer* - [MrStevenSmith](https://github.com/MrStevenSmith)
+This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE](LICENSE) file for details
+
+
+## Author
+
+* **Steven Smith** - *Create the ansible playbook* - [MrStevenSmith](https://github.com/MrStevenSmith)
+
+### Acknowledgments
 * **Dustin Franklin** - *Created jetson-inference code* - [dusty-nv](https://github.com/dusty-nv)
 * **Adam Geitgey** - *Created the doorcam demo* - [ageitgey](https://gist.github.com/ageitgey)
 * **Andrea Grandi** - *Created the Pima Indians Diabetes Jupyter Notebook* - [andreagrandi](https://github.com/andreagrandi)
