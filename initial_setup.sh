@@ -150,7 +150,7 @@ echo $PASSWORD | sudo -S systemctl restart jupyter
 
 ## Install pima dependancies
 echo " "
-echo "9. Installing Pima Indian dependancies"
+echo "9. Installing Pima Indians dependancies"
 echo " "
 sleep 6
 pip3 install "pillow<7"
